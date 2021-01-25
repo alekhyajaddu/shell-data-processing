@@ -7,9 +7,13 @@
 mkdir shell-data-processing
 
 3. Change directory into your sub folder.
+
+cd shell-data-processing
+
 4. ni - Creates a new item.
- powershell 
+
 ni .gitignore
+
 ni README.md
 
 5. ls - lists the items 
