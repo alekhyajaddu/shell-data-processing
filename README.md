@@ -48,7 +48,7 @@ tr ' ' '\12' < returnedfile | sort | uniq -c | sort -nr
 ## Redirect the output to result.txt
 
 tr ' ' '\12' < result.txt | sort | uniq -c | sort -nr > result.txt
-```
+
 ## Important bash commands
 - Bash redirect (>):  type ls > filelist.txt to redirect the contents of your directory into a file. 
 - Bash redirect & append (>>): use two arrows to append rather than overwrite. 
@@ -65,3 +65,9 @@ tr ' ' '\12' < result.txt | sort | uniq -c | sort -nr > result.txt
 - Get-Content filename.fx
 - gc one.txt -head 2
 - gc one.txt -tail 2
+
+## Data file
+[data.txt](https://github.com/alekhyajaddu/shell-data-processing/blob/master/data.txt)
+
+## Result file
+[result.txt](https://github.com/alekhyajaddu/shell-data-processing/blob/master/result.txt)
